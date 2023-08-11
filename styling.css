@@ -1,0 +1,91 @@
+/* style body relative position for scrollspy to work and set font family  */
+
+body {
+    /* font-family: Arvo, serif;      */
+    background: url(images/stopwatch-bg.jpg) center center fixed;
+    background-size: cover;
+    color: #fff;    
+}
+
+/* style the header */
+#header {
+    text-align: center;
+    font-size: 7vw;
+    color: #fff;
+    outline: 2px solid #84ff84;
+    
+}
+
+/* style lap time */
+#lap {
+    text-align: right;
+    font-size: 4vw;
+}
+
+#time {
+    text-align: center;
+    font-size: 10vw;
+}
+
+/* buttons */
+#controlsContainer {
+    margin-bottom: 100px;
+    /* justify-content: center; */
+    margin: 0 10%;
+}
+
+.control {
+    color: black;
+    background-color: #00FF00;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    /* align-items: center; */
+    display: inline-block;
+    padding: 20% 0;
+    margin: 10%;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+.control:active {
+    background-color: #fff;
+    color: #D7A04E;
+}
+
+/* laps */
+#laps {
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+/* lap */
+.lap {
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+
+.laptimetitle {
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime {
+    font-size: 2em;
+    float: right;
+}
+
+/* style footer */
+.footer {
+    background-image: -webkit-gradient(linear, left 0%, right 100%, from(#abffab), to(#84ff84));
+    background-image: -webkit-linear-gradient(top, #abffab, 0%, #84ff84, 100%);
+    background-image: -moz-linear-gradient(top, #abffab 0%, #84ff84 100%);
+    background-image: linear-gradient(to bottom, #abffab 0%, #84ff84 100%);
+    margin-top: 20px;    
+    padding: 5px 0;
+    color: #000;
+    font-size: 15px;    
+    text-align: center;    
+}
